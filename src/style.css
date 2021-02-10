@@ -5,8 +5,26 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
 }
 
+.TierListContainer {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.InferencesContainer {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.ContactInfoContainer {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}

@@ -1,12 +1,16 @@
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="frogspin.gif"/>
-        <p>
-          Site under construction...
-        </p>
-      </header>
+      <header>TTSLabs</header>
+      <div className="TierListContainer">
+        <header>Tier Lists</header>
+      </div>
+      <div className="InferencesContainer">
+        <h>Inferences</h>
+      </div>
+      <div className="ContactInfoContainer">
+        <h>Contact Info</h>
+      </div>
     </div>
   );
 }
