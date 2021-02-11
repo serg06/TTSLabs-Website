@@ -4,8 +4,14 @@ class Tier extends Component {
     render ()
     {
         return(
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            <div className="TierCard">
+                <header className="TierCardHeader">
+                    <h1>{ this.props.tier_name }</h1>
+                    <p>{ this.props.price }$</p>
+                </header>
+                <div className="TierCardBody">
+                    { this.props.descriptions.map((text, id) => <div key={ id } className="TierCardBodyLine">{ text }</div>) }
+                </div>
             </div>
         )
     }

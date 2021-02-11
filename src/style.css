@@ -8,30 +8,71 @@ body {
     min-height: 100vh;
 }
 
+.title {
+    padding-bottom: 50px;
+}
+
 /* TIER LIST */
-.TierListContainer {
+.TierList {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 85vh;
 }
 .TierListHeader {
     border: 1px solid rgb(170, 119, 170);
-    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
     display: flex;
     flex-direction: column;
 }
 
 .TierListContents {
     border: 1px solid rgb(173, 19, 187);
-    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     display: flex;
-    flex-direction: row;
-    height: 100vh;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.TierListContainer {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: stretch;
+    height: 100%;
+    align-items: stretch;
+}
+
+.TierCard {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 125px 40px;
+    width: 100%;
+    min-width: 20%;
+}
+
+.TierCardHeader {
+    background-color:rgb(24, 24, 24);
+    border-radius: 8px 8px 0px 0px;
+    font-size: 2vw;
+}
+
+.TierCardBody {
+    font-size: 24px;
+    background-color:rgb(27, 27, 27);
+    border-radius: 0px 0px 8px 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.TierCardBodyLine {
+    border-bottom: 1px solid rgb(59, 59, 59);
+    padding: 50px;
+    display: flex;
+    text-align: center; 
 }
 
 /* TIER LIST */
-.InferencesContainer {
+.Inferences {
     border: 1px solid green;
     display: flex;
     flex-direction: column;
@@ -40,37 +81,37 @@ body {
 
 .InferencesHeader {
     border: 1px solid rgb(16, 153, 158);
-    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
     display: flex;
     flex-direction: column;
 }
 
 .InferencesContents {
     border: 1px solid rgb(173, 19, 187);
-    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
 /* TIER LIST */
-.ContactInfoContainer {
+.ContactInfo {
     border: 1px solid yellow;
     display: flex;
     flex-direction: column;
-    min-height: 50vh;
+    height: 50vh;
 }
 
 .ContactInfoHeader {
     border: 2px solid rgb(179, 25, 76);
-    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
     display: flex;
     flex-direction: column;
 }
 
 .ContactInfoContents {
     border: 1px solid rgb(170, 187, 18);
-    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     height: 50vh;

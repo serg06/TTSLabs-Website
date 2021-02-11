@@ -1,23 +1,25 @@
 import TierList from "./components/TierList"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
 
 function App() {
   return (
     <div className="App">
-      <header>TTSLabs</header>
-      <div className="TierListContainer">
+      <header className="title">TTSLabs</header>
+      <section className="TierList">
         <header className="TierListHeader">Tier Lists</header>
         <div className="TierListContents">
-          <TierList></TierList>
+          <TierList/>
         </div>
-      </div>
-      <div className="InferencesContainer">
+      </section>
+      <section className="Inferences">
         <header className="InferencesHeader">Our product (Inferences)</header>
         <div className="InferencesContents"></div>
-      </div>
-      <div className="ContactInfoContainer">
+      </section>
+      <section className="ContactInfo">
         <header className="ContactInfoHeader">Contact Info</header>
         <div className="ContactInfoContents"></div>
-      </div>
+      </section>
     </div>
   );
 }
