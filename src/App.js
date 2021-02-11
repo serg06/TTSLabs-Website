@@ -1,6 +1,8 @@
-import TierList from "./components/TierList"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
+
+import TierList from "./components/TierList"
+import InferenceTierList from "./components/InferenceTierList"
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       </section>
       <section className="Inferences">
         <header className="InferencesHeader">Our product (Inferences)</header>
-        <div className="InferencesContents"></div>
+        <div className="InferencesContents">
+          <InferenceTierList/>
+        </div>
       </section>
       <section className="ContactInfo">
         <header className="ContactInfoHeader">Contact Info</header>
