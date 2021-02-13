@@ -10,15 +10,11 @@ function App() {
       <header className="title">TTSLabs</header>
       <section className="TierList">
         <header className="TierListHeader">Tier Lists</header>
-        <div className="TierListContents">
-          <TierList/>
-        </div>
+        <TierList/>
       </section>
-      <section className="Inferences">
-        <header className="InferencesHeader">Our product (Inferences)</header>
-        <div className="InferencesContents">
-          <InferenceTierList/>
-        </div>
+      <section className="InferenceTierList">
+        <header className="InferenceTierListHeader">Our product (Inferences)</header>
+        <InferenceTierList/>
       </section>
       <section className="ContactInfo">
         <header className="ContactInfoHeader">Contact Info</header>

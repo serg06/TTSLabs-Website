@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Tier from "./Tier"
+import TierCard from "./TierCard"
 
 class TierList extends Component
 {
@@ -19,11 +19,11 @@ class TierList extends Component
     {
         return (
             <div className="TierListContainer">
-                { this.state.tiers.map(tier => <Tier 
-                                                    key={ tier.id }
-                                                    tier_name={ tier.tier_name }
-                                                    descriptions={ tier.descriptions }
-                                                    price={ tier.price }
+                { this.state.tiers.map(tier => <TierCard 
+                                                key={ tier.id }
+                                                tier_name={ tier.tier_name }
+                                                descriptions={ tier.descriptions }
+                                                price={ tier.price }
                                                 />) }
             </div>
         )

@@ -26,15 +26,9 @@ body {
     flex-direction: column;
 }
 
-.TierListContents {
+.TierListContainer {
     border: 1px solid rgb(173, 19, 187);
     padding: 10px 10px 10px 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.TierListContainer {
-    border: 1px solid rgb(5, 5, 172);
     display: flex;
     justify-content: center;
 }
@@ -69,27 +63,59 @@ body {
     text-align: center; 
 }
 
-/* TIER LIST */
-.Inferences {
-    border: 1px solid green;
+/* INFERENCE LIST */
+.InferenceTierList {
+    border: 1px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
-.InferencesHeader {
-    border: 1px solid rgb(16, 153, 158);
+.InferenceTierListHeader {
+    border: 1px solid rgb(31, 23, 31);
     padding: 10px 10px 0px 10px;
     display: flex;
     flex-direction: column;
 }
 
-.InferencesContents {
+.InferenceTierListContainer {
     border: 1px solid rgb(173, 19, 187);
     padding: 10px 10px 10px 10px;
     display: flex;
+    justify-content: center;
+}
+
+.InferenceTierCard {
+    display: flex;
     flex-direction: column;
-    height: 100vh;
+    border: 1px solid red;
+    padding: 25px 35px 25px 35px;
+    min-height: 800px;
+    width: 500px;
+}
+
+.InferenceTierCardHeader {
+    background-color:rgb(24, 24, 24);
+    border-radius: 8px 8px 0px 0px;
+    font-size: 16px;
+}
+
+.InferenceTierCardBody {
+    font-size: 24px;
+    background-color:rgb(27, 27, 27);
+    border-radius: 0px 0px 8px 8px;
+    font-size: 16px;
+    height: 100%;
+}
+
+.InferenceTierCardText {
+    text-align: center;
+    font-size: 20px;
+}
+
+.InferenceTierCardPlayer {
+    border-bottom: 1px solid rgb(59, 59, 59);
+    text-align: center;
+    padding: 10px; 
 }
 
 /* TIER LIST */
