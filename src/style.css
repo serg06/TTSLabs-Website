@@ -16,6 +16,7 @@ body {
 .TierList {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .TierListHeader {
@@ -28,6 +29,7 @@ body {
 .TierListHeaderText {
     font: 18px "Segoe UI";
     padding-top: 5px;
+    max-width: 800px;
 }
 
 .TierListContainer {
@@ -72,16 +74,18 @@ body {
 
 .TierCardText {
     border-bottom: 3px solid rgb(32, 32, 32);
-    min-height: 150px;
-    padding: 20px;
+    min-height: 200px;
+    padding: 35px 25px 20px 25px;
     display: flex;
     text-align: center; 
+    font: 19px "Segoe UI";
 }
 
 /* INFERENCE LIST */
 .InferenceTierList {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .InferenceTierListHeader {
@@ -94,6 +98,7 @@ body {
 .InferenceTierListHeaderText {
     font: 18px "Segoe UI";
     padding-top: 5px;
+    max-width: 800px;
 }
 
 .InferenceTierListContainer {
@@ -134,7 +139,7 @@ body {
 .InferenceTierCardText {
     text-align: center;
     padding-top: 10px;
-    font-size: 20px;
+    font: 19px "Segoe UI";
 }
 
 .InferenceTierCardPlayer {
