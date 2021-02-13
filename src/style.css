@@ -59,7 +59,7 @@ body {
 }
 
 .TierCardName {
-    font: bold all-petite-caps 21px "Segoe UI";
+    font: bold all-petite-caps 24px "Segoe UI";
 }
 
 .TierCardPriceTag {
@@ -101,7 +101,7 @@ body {
 }
 
 .InferenceTierCardName {
-    font: bold all-petite-caps 21px "Segoe UI";
+    font: bold all-petite-caps 24px "Segoe UI";
 }
 
 .InferenceTierCardHeader {
