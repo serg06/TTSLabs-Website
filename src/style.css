@@ -34,27 +34,41 @@ body {
     display: flex;
     flex-direction: column;
     padding: 25px 35px 25px 35px;
-    min-height: 800px;
+    min-height: 650px;
     width: 500px;
 }
 
 .TierCardHeader {
-    background-color:rgb(24, 24, 24);
-    border-radius: 8px 8px 0px 0px;
+    background-color:rgb(32, 180, 70);
+    border-radius: 12px 12px 0px 0px;
     font-size: 16px;
+    padding: 20px;
+    border: 3px solid rgb(59, 59, 59);
+    border-bottom: none;
 }
 
 .TierCardBody {
     font-size: 24px;
     background-color:rgb(27, 27, 27);
-    border-radius: 0px 0px 8px 8px;
-    font-size: 16px;
+    border-radius: 0px 0px 6px 6px;
+    font: 18px "Segoe UI";
     height: 100%;
+    border-left: 3px solid rgb(59, 59, 59);
+    border-right: 3px solid rgb(59, 59, 59);
+    border-bottom: 3px solid rgb(32, 180, 70);
 }
 
-.TierCardBodyLine {
-    border-bottom: 1px solid rgb(59, 59, 59);
-    height: 125px;
+.TierCardName {
+    font: bold all-petite-caps 21px "Segoe UI";
+}
+
+.TierCardPriceTag {
+    font: 26px "Segoe UI";
+}
+
+.TierCardText {
+    border-bottom: 3px solid rgb(59, 59, 59);
+    min-height: 150px;
     padding: 20px;
     display: flex;
     text-align: center; 
@@ -82,14 +96,21 @@ body {
     display: flex;
     flex-direction: column;
     padding: 25px 35px 25px 35px;
-    min-height: 800px;
+    min-height: 650px;
     width: 500px;
 }
 
+.InferenceTierCardName {
+    font: bold all-petite-caps 21px "Segoe UI";
+}
+
 .InferenceTierCardHeader {
-    background-color:rgb(24, 24, 24);
-    border-radius: 8px 8px 0px 0px;
+    background-color:rgb(32, 170, 180);
+    border-radius: 12px 12px 0px 0px;
     font-size: 16px;
+    padding: 20px;
+    border: 3px solid rgb(59, 59, 59);
+    border-bottom: none;
 }
 
 .InferenceTierCardBody {
@@ -98,12 +119,17 @@ body {
     border-radius: 0px 0px 8px 8px;
     font-size: 16px;
     height: 100%;
+    border-left: 3px solid rgb(59, 59, 59);
+    border-right: 3px solid rgb(59, 59, 59);
+    border-bottom: 3px solid rgb(32, 170, 180);
 }
 
 .InferenceTierCardText {
     height: 100px;
     text-align: center;
+    padding-top: 10px;
     font-size: 20px;
+    vertical-align: center;
 }
 
 .InferenceTierCardPlayer {

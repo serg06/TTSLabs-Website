@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="title">TTSLabs</header>
       <section className="TierList">
-        <header className="TierListHeader">Tier Lists</header>
+        <header className="TierListHeader">Our Plans</header>
         <TierList/>
       </section>
       <section className="InferenceTierList">

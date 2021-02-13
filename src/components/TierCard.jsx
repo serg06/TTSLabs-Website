@@ -6,11 +6,11 @@ class Tier extends Component {
         return(
             <div className="TierCard">
                 <header className="TierCardHeader">
-                    <h1>{ this.props.tier_name }</h1>
-                    <p>{ this.props.price }$</p>
+                    <h1 className="TierCardName">{ this.props.tier_name }</h1>
+                    <p className="TierCardPriceTag">${ this.props.price }</p>
                 </header>
                 <div className="TierCardBody">
-                    { this.props.descriptions.map((text, id) => <div key={ id } className="TierCardBodyLine">{ text }</div>) }
+                    { this.props.descriptions.map((text, id) => <div key={ id } className="TierCardText">{ text }</div>) }
                 </div>
             </div>
         )
