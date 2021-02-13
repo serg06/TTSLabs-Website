@@ -9,15 +9,23 @@ function App() {
     <div className="App">
       <header className="title">TTSLabs</header>
       <section className="TierList">
-        <header className="TierListHeader">Our Plans</header>
+        <header className="TierListHeader">
+          Our Plans
+          <p1 className="TierListHeaderText">This are our plans and bla bla bla</p1>
+        </header>
         <TierList/>
       </section>
       <section className="InferenceTierList">
-        <header className="InferenceTierListHeader">Inferences</header>
+        <header className="InferenceTierListHeader">
+          Inferences
+          <p1 className="InferenceTierListHeaderText">
+            Those are our inferences and they do this and that and bla bla bla
+          </p1>
+        </header>
         <InferenceTierList/>
       </section>
       <section className="ContactInfo">
-        <header className="ContactInfoHeader">Contact Info</header>
+        <header className="ContactInfoHeader"></header>
         <div className="ContactInfoContents"></div>
       </section>
     </div>

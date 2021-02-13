@@ -19,9 +19,15 @@ body {
 }
 
 .TierListHeader {
-    padding: 10px 10px 0px 10px;
+    padding: 85px 10px 25px 10px;
+    font: bold 36px "Segoe UI";
     display: flex;
     flex-direction: column;
+}
+
+.TierListHeaderText {
+    font: 18px "Segoe UI";
+    padding-top: 5px;
 }
 
 .TierListContainer {
@@ -53,8 +59,6 @@ body {
     border-radius: 0px 0px 6px 6px;
     font: 18px "Segoe UI";
     height: 100%;
-    border-left: 3px solid rgb(32, 32, 32);
-    border-right: 3px solid rgb(32, 32, 32);
     border-bottom: 3px solid rgb(32, 180, 70);
 }
 
@@ -63,7 +67,8 @@ body {
 }
 
 .TierCardPriceTag {
-    font: 26px "Segoe UI";
+    padding-top: 10px;
+    font: 24px "Franklin Gothic Medium";
 }
 
 .TierCardText {
@@ -81,9 +86,15 @@ body {
 }
 
 .InferenceTierListHeader {
-    padding: 10px 10px 0px 10px;
+    padding: 85px 10px 25px 10px;
+    font: bold 36px "Segoe UI";
     display: flex;
     flex-direction: column;
+}
+
+.InferenceTierListHeaderText {
+    font: 18px "Segoe UI";
+    padding-top: 5px;
 }
 
 .InferenceTierListContainer {
@@ -119,8 +130,6 @@ body {
     border-radius: 0px 0px 8px 8px;
     font-size: 16px;
     height: 100%;
-    border-left: 3px solid rgb(32, 32, 32);
-    border-right: 3px solid rgb(32, 32, 32);
     border-bottom: 3px solid rgb(32, 170, 180);
 }
 
