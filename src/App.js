@@ -13,7 +13,7 @@ function App() {
         <TierList/>
       </section>
       <section className="InferenceTierList">
-        <header className="InferenceTierListHeader">Our product (Inferences)</header>
+        <header className="InferenceTierListHeader">Inferences</header>
         <InferenceTierList/>
       </section>
       <section className="ContactInfo">
