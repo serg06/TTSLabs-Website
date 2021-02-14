@@ -37,6 +37,7 @@ body {
     font: 16px "Segoe UI";
     padding-top: 5px;
     max-width: 800px;
+    color: rgb(182, 182, 182);
 }
 
 .TierListContainer {
@@ -49,7 +50,7 @@ body {
     flex-direction: column;
     padding: 25px 35px 25px 35px;
     min-height: 700px;
-    width: 450px;
+    max-width: 450px;
 }
 
 .TierCardHeader {
@@ -111,6 +112,7 @@ body {
     font: 16px "Segoe UI";
     padding-top: 5px;
     max-width: 800px;
+    color: rgb(182, 182, 182);
 }
 
 .InferenceTierListContainer {
@@ -123,7 +125,7 @@ body {
     flex-direction: column;
     padding: 25px 35px 25px 35px;
     min-height: 700px;
-    width: 450px;
+    max-width: 450px;
 }
 
 .InferenceTierCardHeader {
@@ -143,13 +145,19 @@ body {
     border-bottom: 3px solid rgb(32, 170, 180);
 }
 
-.InferenceTierCardName {
+.InferenceTierCardTierName {
     font: bold small-caps 28px "Segoe UI";
 }
 
-.InferenceTierCardText {
+.InferenceTierCardInferenceName {
     padding-top: 10px;
-    font: 19px "Segoe UI";
+    font: bold 20px "Segoe UI";
+}
+
+.InferenceTierCardInferenceText {
+    padding: 5px 12px 5px 12px;
+    font: 14px "Segoe UI";
+    color: rgb(182, 182, 182);
 }
 
 .InferenceTierCardPlayer {

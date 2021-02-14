@@ -1,16 +1,17 @@
 [
     {"id": 0, "tier_name": "basic", "inferences": [
-                                                    {"name": "Cyr", "text": "", "audio_url": "https://www.dropbox.com/s/wtvq23d9dhtjmqa/cyr_inference.wav?dl=1"},
-                                                    {"name": "Hasan", "text": "", "audio_url": "https://www.dropbox.com/s/pqo7pjd6dbj16a9/hasan_inference.wav?dl=1"}
+                                                    {"name": "pokelawls", "text": "There's a way to measure the acute emotional intelligence that has never gone out of style.", "audio_url": "https://www.dropbox.com/s/8ko78heoa2dh5rc/poke_inference.wav?dl=1"},
+                                                    {"name": "Cyr", "text": "Generative adversarial network or variational auto-encoder.", "audio_url": "https://www.dropbox.com/s/hxuckvj4v2mgutu/cyr_inference.wav?dl=1"}
                                                 ]},
 
     {"id": 1, "tier_name": "normal", "inferences": [
-                                                    {"name": "Cyr", "text": "", "audio_url": "https://www.dropbox.com/s/wtvq23d9dhtjmqa/cyr_inference.wav?dl=1"},
-                                                    {"name": "Hasan", "text": "", "audio_url": "https://www.dropbox.com/s/pqo7pjd6dbj16a9/hasan_inference.wav?dl=1"}
+                                                    {"name": "pokelawls", "text": "There's a way to measure the acute emotional intelligence that has never gone out of style.", "audio_url": "https://www.dropbox.com/s/8ko78heoa2dh5rc/poke_inference.wav?dl=1"},
+                                                    {"name": "Cyr", "text": "Generative adversarial network or variational auto-encoder.", "audio_url": "https://www.dropbox.com/s/hxuckvj4v2mgutu/cyr_inference.wav?dl=1"}
                                                 ]}, 
 
     {"id": 2, "tier_name": "advanced", "inferences": [
-                                                    {"name": "Cyr", "text": "", "audio_url": "https://www.dropbox.com/s/wtvq23d9dhtjmqa/cyr_inference.wav?dl=1"},
-                                                    {"name": "Hasan", "text": "", "audio_url": "https://www.dropbox.com/s/pqo7pjd6dbj16a9/hasan_inference.wav?dl=1"}
+
+                                                    {"name": "pokelawls", "text": "There's a way to measure the acute emotional intelligence that has never gone out of style.", "audio_url": "https://www.dropbox.com/s/8ko78heoa2dh5rc/poke_inference.wav?dl=1"},
+                                                    {"name": "Cyr", "text": "Generative adversarial network or variational auto-encoder.", "audio_url": "https://www.dropbox.com/s/hxuckvj4v2mgutu/cyr_inference.wav?dl=1"}
                                                 ]}
 ]
