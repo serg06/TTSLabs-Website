@@ -7,10 +7,17 @@ body {
     min-height: 100vh;
     background: rgb(23, 23, 30);
 }
-
-.title {
-    padding-bottom: 50px;
+    
+.logo {
+    height: 300px;
 }
+
+
+
+
+
+
+
 
 /* TIER LIST */
 .TierList {
@@ -27,7 +34,7 @@ body {
 }
 
 .TierListHeaderText {
-    font: 18px "Segoe UI";
+    font: 16px "Segoe UI";
     padding-top: 5px;
     max-width: 800px;
 }
@@ -35,15 +42,14 @@ body {
 .TierListContainer {
     padding: 10px 10px 10px 10px;
     display: flex;
-    justify-content: center;
 }
 
 .TierCard {
     display: flex;
     flex-direction: column;
     padding: 25px 35px 25px 35px;
-    min-height: 650px;
-    width: 500px;
+    min-height: 700px;
+    width: 450px;
 }
 
 .TierCardHeader {
@@ -81,6 +87,12 @@ body {
     font: 19px "Segoe UI";
 }
 
+
+
+
+
+
+
 /* INFERENCE LIST */
 .InferenceTierList {
     display: flex;
@@ -96,7 +108,7 @@ body {
 }
 
 .InferenceTierListHeaderText {
-    font: 18px "Segoe UI";
+    font: 16px "Segoe UI";
     padding-top: 5px;
     max-width: 800px;
 }
@@ -104,19 +116,14 @@ body {
 .InferenceTierListContainer {
     padding: 10px 10px 10px 10px;
     display: flex;
-    justify-content: center;
 }
 
 .InferenceTierCard {
     display: flex;
     flex-direction: column;
     padding: 25px 35px 25px 35px;
-    min-height: 650px;
-    width: 500px;
-}
-
-.InferenceTierCardName {
-    font: bold small-caps 28px "Segoe UI";
+    min-height: 700px;
+    width: 450px;
 }
 
 .InferenceTierCardHeader {
@@ -130,25 +137,43 @@ body {
 .InferenceTierCardBody {
     font-size: 24px;
     background-color:rgb(18, 18, 23);
-    border-radius: 0px 0px 8px 8px;
-    font-size: 16px;
+    border-radius: 0px 0px 6px 6px;
+    font: 18px "Segoe UI";
     height: 100%;
     border-bottom: 3px solid rgb(32, 170, 180);
 }
 
+.InferenceTierCardName {
+    font: bold small-caps 28px "Segoe UI";
+}
+
 .InferenceTierCardText {
-    text-align: center;
     padding-top: 10px;
     font: 19px "Segoe UI";
 }
 
 .InferenceTierCardPlayer {
     border-bottom: 3px solid rgb(32, 32, 32);
-    text-align: center;
     padding: 10px;
 }
 
-/* TIER LIST */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT INFO */
 .ContactInfo {
     display: flex;
     flex-direction: column;
