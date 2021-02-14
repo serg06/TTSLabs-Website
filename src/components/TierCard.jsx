@@ -6,7 +6,7 @@ class Tier extends Component {
         return(
             <div className="TierCard">
                 <header className="TierCardHeader">
-                    <h1 className="TierCardName">{ this.props.tier_name }</h1>
+                    <h1 className="TierCardTierName">{ this.props.tier_name }</h1>
                     <p className="TierCardPriceTag">${ this.props.price }</p>
                 </header>
                 <div className="TierCardBody">

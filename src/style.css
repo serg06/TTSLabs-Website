@@ -45,6 +45,7 @@ body {
     display: flex;
 }
 
+/* TIER CARD */
 .TierCard {
     display: flex;
     flex-direction: column;
@@ -62,15 +63,13 @@ body {
 }
 
 .TierCardBody {
-    font-size: 24px;
     background-color:rgb(18, 18, 23);
     border-radius: 0px 0px 6px 6px;
-    font: 18px "Segoe UI";
     height: 100%;
     border-bottom: 3px solid rgb(32, 180, 70);
 }
 
-.TierCardName {
+.TierCardTierName {
     font: bold small-caps 28px "Segoe UI";
 }
 
@@ -82,10 +81,10 @@ body {
 .TierCardText {
     border-bottom: 3px solid rgb(32, 32, 32);
     min-height: 200px;
-    padding: 35px 25px 20px 25px;
+    padding: 50px 25px 0px 25px;
     display: flex;
     text-align: center; 
-    font: 19px "Segoe UI";
+    font: 18px "Segoe UI";
 }
 
 
@@ -120,6 +119,8 @@ body {
     display: flex;
 }
 
+
+/* INFERENCE TIER CARD */
 .InferenceTierCard {
     display: flex;
     flex-direction: column;
@@ -151,7 +152,7 @@ body {
 
 .InferenceTierCardInferenceName {
     padding-top: 10px;
-    font: bold 20px "Segoe UI";
+    font: bold 19px "Segoe UI";
 }
 
 .InferenceTierCardInferenceText {
