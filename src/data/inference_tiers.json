@@ -1,0 +1,16 @@
+[
+    {"id": 0, "tier_name": "basic", "inferences": [
+                                                    {"name": "Cyr", "text": "", "audio_url": "https://www.dropbox.com/s/wtvq23d9dhtjmqa/cyr_inference.wav?dl=1"},
+                                                    {"name": "Hasan", "text": "", "audio_url": "https://www.dropbox.com/s/pqo7pjd6dbj16a9/hasan_inference.wav?dl=1"}
+                                                ]},
+
+    {"id": 1, "tier_name": "normal", "inferences": [
+                                                    {"name": "Cyr", "text": "", "audio_url": "https://www.dropbox.com/s/wtvq23d9dhtjmqa/cyr_inference.wav?dl=1"},
+                                                    {"name": "Hasan", "text": "", "audio_url": "https://www.dropbox.com/s/pqo7pjd6dbj16a9/hasan_inference.wav?dl=1"}
+                                                ]}, 
+
+    {"id": 2, "tier_name": "advanced", "inferences": [
+                                                    {"name": "Cyr", "text": "", "audio_url": "https://www.dropbox.com/s/wtvq23d9dhtjmqa/cyr_inference.wav?dl=1"},
+                                                    {"name": "Hasan", "text": "", "audio_url": "https://www.dropbox.com/s/pqo7pjd6dbj16a9/hasan_inference.wav?dl=1"}
+                                                ]}
+]
