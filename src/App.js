@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
 
-import logo from "./images/logo_wide.svg"
+import logo from "./images/logo.png"
 
 import TierList from "./components/TierList"
 import InferenceTierList from "./components/InferenceTierList"
