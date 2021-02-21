@@ -13,6 +13,8 @@ class TierList extends Component
                                                 tier_name={ tier.tier_name }
                                                 descriptions={ tier.descriptions }
                                                 price={ tier.price }
+                                                color={ tier.color }
+                                                id={ tier.id }
                                                 />) }
             </div>
         )

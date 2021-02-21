@@ -2,6 +2,7 @@
     {
         "id": 0,
         "tier_name": "basic",
+        "color": "#1E81C3",
         "inferences": [
             {
                 "name": "pokelawls",
@@ -18,6 +19,7 @@
     {
         "id": 1,
         "tier_name": "normal",
+        "color": "#ED641E",
         "inferences": [
             {
                 "name": "pokelawls",
@@ -34,6 +36,7 @@
     {
         "id": 2,
         "tier_name": "advanced",
+        "color": "#FCD33D",
         "inferences": [
             {
                 "name": "pokelawls",

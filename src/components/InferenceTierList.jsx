@@ -12,6 +12,7 @@ class InferenceTierList extends Component
                                                 key={ tier.id }
                                                 tier_name={ tier.tier_name }
                                                 inferences={ tier.inferences }
+                                                color={ tier.color }
                                                 />) }
             </div>
         )

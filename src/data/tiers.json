@@ -2,26 +2,33 @@
     {
         "id": 0,
         "tier_name": "basic",
-        "price": 500,
+        "price": 1,
+        "color": "#1E81C3",
         "descriptions": [
-            "You record yourself reading our script and we train your voice based on that. You also get the GUI and any publicly shared voices."
+            "TTS GUI",
+            "Streamlabs support",
+            "StreamElements support",
+            "Access to all public voices",
+            "Will train one voice for you using clips you provide"
         ]
     },
     {
         "id": 1,
         "tier_name": "normal",
-        "price": 1000,
+        "price": 2,
+        "color": "#ED641E",
         "descriptions": [
-            "We manually gather training data from up to 100 hours of past VODs, for training the model."
+            "Will manually collect many clips from your past VODs/videos"
         ]
     },
     {
         "id": 2,
         "tier_name": "advanced",
-        "price": 2000,
+        "price": 3,
+        "color": "#FCD33D",
         "descriptions": [
-            "We manually gather training data from up to 100 hours of past VODs, for training the model.",
-            "We try to make the model as good as possible, gathering more data from past and future VODs, plus fine tuning parts of the model."
+            "Will continue to collect more clips from future VODs/videos to improve the voice even further",
+            "{That other feature we had, I don't remember}"
         ]
     }
 ]
