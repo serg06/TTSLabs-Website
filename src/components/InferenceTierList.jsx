@@ -7,7 +7,7 @@ class InferenceTierList extends Component
     render()
     {
         return (
-            <div className="InferenceTierListContainer">
+            <div className="tier-list-container">
                 { this.props.data.map(tier => <InferenceTierCard 
                                                 key={ tier.id }
                                                 tier_name={ tier.tier_name }

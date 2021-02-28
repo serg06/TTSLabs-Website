@@ -1,9 +1,10 @@
 [
     {
         "id": 0,
-        "tier_name": "basic",
-        "price": 1,
+        "tier_name": "Basic",
+        "price": 500,
         "color": "#1E81C3",
+        "highlighted": false,
         "descriptions": [
             "TTS GUI",
             "Streamlabs support",
@@ -14,18 +15,20 @@
     },
     {
         "id": 1,
-        "tier_name": "normal",
-        "price": 2,
+        "tier_name": "Advanced",
+        "price": 1000,
         "color": "#ED641E",
+        "highlighted": true,
         "descriptions": [
             "Will manually collect many clips from your past VODs/videos"
         ]
     },
     {
         "id": 2,
-        "tier_name": "advanced",
-        "price": 3,
+        "tier_name": "Pro",
+        "price": 2000,
         "color": "#FCD33D",
+        "highlighted": false,
         "descriptions": [
             "Will continue to collect more clips from future VODs/videos to improve the voice even further",
             "{That other feature we had, I don't remember}"

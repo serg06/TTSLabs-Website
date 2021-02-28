@@ -5,48 +5,43 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(23, 23, 30);
+    background-color: rgb(23, 23, 30);
 }
     
 .logo {
-    height: 150px;
+    height: 125px;
+    padding-top: 10px;
 }
 
 
-
-
-
-
-
-
-/* TIER LIST */
-.TierList {
+/* TIER CARD */
+.tier-list {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.TierListHeader {
+.tier-list-header {
     padding: 85px 10px 25px 10px;
     font: bold 36px "Segoe UI";
     display: flex;
     flex-direction: column;
 }
 
-.TierListHeaderText {
+.tier-list-header-text {
     font: 16px "Segoe UI";
     padding-top: 5px;
     max-width: 800px;
     color: rgb(182, 182, 182);
 }
 
-.TierListContainer {
+.tier-list-container {
     padding: 10px 10px 10px 10px;
     display: flex;
+    flex-direction: row;
 }
 
-/* TIER CARD */
-.TierCard {
+.tier-card {
     display: flex;
     flex-direction: column;
     padding: 25px 35px 25px 35px;
@@ -54,30 +49,31 @@ body {
     max-width: 450px;
 }
 
-.TierCardHeader {
+.tier-card-header {
     border-radius: 12px 12px 0px 0px;
     background-color:rgb(18, 18, 23);
     font-size: 16px;
     padding: 20px;
 }
 
-.TierCardHorizontalLine {
+.tier-card-header-name {
+    font: bold 32px "Corbel";
+}
+
+.tier-card-header-horizontal-line {
     margin-top: 30px;
 }
 
-.TierCardBody {
+.tier-card-body {
     background-color:rgb(18, 18, 23);
     border-radius: 0px 0px 6px 6px;
     height: 100%;
 }
 
-.TierCardTierName {
-    font: bold small-caps 28px "Segoe UI";
-}
-
+/* PRICING TIER CARD */
 .TierCardPriceTag {
     padding-top: 10px;
-    font: 24px "Franklin Gothic Medium";
+    font: italic 24px "Franklin Gothic Medium";
 }
 
 .TierCardItemContainer {
@@ -106,69 +102,7 @@ body {
     background-image: url("./images/checkmark.svg");
 }
 
-
-
-
-
-/* INFERENCE LIST */
-.InferenceTierList {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.InferenceTierListHeader {
-    padding: 85px 10px 25px 10px;
-    font: bold 36px "Segoe UI";
-    display: flex;
-    flex-direction: column;
-}
-
-.InferenceTierListHeaderText {
-    font: 16px "Segoe UI";
-    padding-top: 5px;
-    max-width: 800px;
-    color: rgb(182, 182, 182);
-}
-
-.InferenceTierListContainer {
-    padding: 10px 10px 10px 10px;
-    display: flex;
-}
-
 /* INFERENCE TIER CARD */
-.InferenceTierCard {
-    display: flex;
-    flex-direction: column;
-    padding: 25px 35px 25px 35px;
-    min-height: 700px;
-    max-width: 450px;
-}
-
-.InferenceTierCardHeader {
-    border-radius: 12px 12px 0px 0px;
-    font-size: 16px;
-    background-color:rgb(18, 18, 23);
-    padding: 20px 20px 5px 20px;
-    border-bottom: none;
-}
-
-.InferenceTierCardHorizontalLine {
-    margin-top: 30px;
-}
-
-.InferenceTierCardBody {
-    font-size: 24px;
-    background-color:rgb(18, 18, 23);
-    border-radius: 0px 0px 6px 6px;
-    font: 18px "Segoe UI";
-    height: 100%;
-}
-
-.InferenceTierCardTierName {
-    font: bold small-caps 28px "Segoe UI";
-}
-
 .InferenceTierCardInferenceName {
     padding-top: 10px;
     font: bold 19px "Segoe UI";
@@ -181,18 +115,8 @@ body {
 }
 
 .InferenceTierCardPlayer {
-    border-bottom: 3px solid rgb(32, 32, 32);
     padding: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -219,4 +143,24 @@ body {
     display: flex;
     flex-direction: column;
     height: 50vh;
+}
+
+
+.transition {
+    width: 100%;
+    height: 250px;
+}
+
+.InferenceTierList {
+    padding-top: -100px;
+    margin-top: -100px;
+    background-color: rgb(26, 26, 34);
+}
+
+.navigation-bar {
+    background-color:rgb(26, 26, 34);
+}
+
+.highlighted {
+    scale: 1.07;
 }

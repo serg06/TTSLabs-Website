@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "tier_name": "basic",
+        "tier_name": "Basic",
         "color": "#1E81C3",
         "inferences": [
             {
@@ -18,7 +18,7 @@
     },
     {
         "id": 1,
-        "tier_name": "normal",
+        "tier_name": "Advanced",
         "color": "#ED641E",
         "inferences": [
             {
@@ -35,7 +35,7 @@
     },
     {
         "id": 2,
-        "tier_name": "advanced",
+        "tier_name": "Pro",
         "color": "#FCD33D",
         "inferences": [
             {

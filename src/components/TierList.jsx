@@ -7,7 +7,7 @@ class TierList extends Component
     render()
     {
         return (
-            <div className="TierListContainer">
+            <div className="tier-list-container">
                 { this.props.data.map(tier => <TierCard 
                                                 key={ tier.id }
                                                 tier_name={ tier.tier_name }
@@ -15,6 +15,7 @@ class TierList extends Component
                                                 price={ tier.price }
                                                 color={ tier.color }
                                                 id={ tier.id }
+                                                highlighted={ tier.highlighted }
                                                 />) }
             </div>
         )
