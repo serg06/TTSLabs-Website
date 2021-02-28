@@ -68,6 +68,8 @@ body {
     background-color:rgb(18, 18, 23);
     border-radius: 0px 0px 6px 6px;
     height: 100%;
+    min-width: 350px;
+    padding-bottom: 40px;
 }
 
 /* PRICING TIER CARD */
@@ -103,6 +105,9 @@ body {
 }
 
 /* INFERENCE TIER CARD */
+.InferenceTierCard {
+    min-height: 0px;
+}
 .InferenceTierCardInferenceName {
     padding-top: 10px;
     font: bold 19px "Segoe UI";
@@ -115,11 +120,8 @@ body {
 }
 
 .InferenceTierCardPlayer {
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
 }
-
-
-
 
 
 
@@ -145,7 +147,6 @@ body {
     height: 50vh;
 }
 
-
 .transition {
     width: 100%;
     height: 250px;
@@ -154,13 +155,39 @@ body {
 .InferenceTierList {
     padding-top: -100px;
     margin-top: -100px;
-    background-color: rgb(26, 26, 34);
+    background-color: rgb(29, 29, 37);
 }
 
 .navigation-bar {
-    background-color:rgb(26, 26, 34);
+    background-color:rgb(29, 29, 37);
 }
 
 .highlighted {
     scale: 1.07;
+}
+
+.not-selectable {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.alice-carousel__dots-item {
+    width: 10px !important;
+    height: 10px !important;
+    padding: 0px !important;
+}
+
+.alice-carousel__stage-item {
+    width: 100% !important;
+}
+
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+    width: 15% !important;
+    text-align: center !important;
+}
+
+.alice-carousel__dots {
+    margin-top: 0px !important;
 }
