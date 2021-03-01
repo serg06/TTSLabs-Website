@@ -26,7 +26,7 @@
     "predeploy-prod": "npm run build",
     "predeploy-beta": "npm run build && del build\\CNAME",
     "deploy-prod": "gh-pages -d build",
-    "deploy-beta": "gh-pages -d build -o beta"
+    "deploy-beta": "gh-pages -d build -o beta -b privpage"
   },
   "eslintConfig": {
     "extends": [
