@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ttslabs.ai",
+  "homepage": ".",
   "name": "ttslabsai",
   "version": "0.1.0",
   "private": true,
@@ -23,8 +23,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy-prod": "npm run build",
+    "predeploy-beta": "npm run build && del build\\CNAME",
+    "deploy-prod": "gh-pages -d build",
+    "deploy-beta": "gh-pages -d build -o beta"
   },
   "eslintConfig": {
     "extends": [
