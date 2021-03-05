@@ -6,11 +6,9 @@
         "color": "#1E81C3",
         "highlighted": false,
         "descriptions": [
-            "TTS GUI",
-            "Streamlabs support",
-            "StreamElements support",
+            "Easy integration with Streamlabs and StreamElements",
             "Access to all public voices",
-            "Will train one voice for you using clips you provide"
+            "Basic quality TTS based on recordings you make for us, while reading our script"
         ]
     },
     {
@@ -20,7 +18,10 @@
         "color": "#ED641E",
         "highlighted": true,
         "descriptions": [
-            "Will manually collect many clips from your past VODs/videos"
+            "Easy integration with Streamlabs and StreamElements",
+            "Access to all public voices",
+            "Advanced quality",
+            "TTS from data on upto 100 hours of past VOD's"            
         ]
     },
     {
@@ -30,8 +31,12 @@
         "color": "#FCD33D",
         "highlighted": false,
         "descriptions": [
-            "Will continue to collect more clips from future VODs/videos to improve the voice even further",
-            "{That other feature we had, I don't remember}"
+            "Easy integration with Streamlabs/ Streamelements",
+            "Access to all public voices",
+            "Pro quality",
+            "TTS from data on upto 100 hours of past VOD's",
+            "3 Months of AI updates and continous learning from data of future VOD's",
+            "Priority support"
         ]
     }
 ]

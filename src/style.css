@@ -7,12 +7,11 @@ body {
     min-height: 100vh;
     background-color: rgb(23, 23, 30);
 }
-    
+
 .logo {
     height: 125px;
     padding-top: 10px;
 }
-
 
 /* TIER CARD */
 .tier-list {
@@ -73,6 +72,10 @@ body {
 }
 
 /* PRICING TIER CARD */
+.TierList {
+    margin-bottom: 150px;
+}
+
 .TierCardPriceTag {
     padding-top: 10px;
     font: italic 24px "Franklin Gothic Medium";
@@ -105,6 +108,11 @@ body {
 }
 
 /* INFERENCE TIER CARD */
+.InferenceTierList {
+    margin-top: -100px;
+    background-color: rgb(29, 29, 37);
+}
+
 .InferenceTierCard {
     min-height: 0px;
 }
@@ -152,12 +160,6 @@ body {
     height: 250px;
 }
 
-.InferenceTierList {
-    padding-top: -100px;
-    margin-top: -100px;
-    background-color: rgb(29, 29, 37);
-}
-
 .navigation-bar {
     background-color:rgb(29, 29, 37);
 }
@@ -166,11 +168,16 @@ body {
     transform: scale(1.07);
 }
 
-.not-selectable {
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+.unselectable {
+    /* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
+    /* Check this site for more details: http://help.dottoro.com/lhwdpnva.php */
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    pointer-events: none;
 }
 
 .alice-carousel__dots-item {
@@ -190,4 +197,64 @@ body {
 
 .alice-carousel__dots {
     margin-top: 0px !important;
+}
+
+.navbar-brand {
+    padding: 0 3vw 0 20vw;
+}
+
+.nav-link {
+    font: 24px "Segoe UI";
+    padding-right: 20px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar {
+    background-color: rgb(29, 29, 37) !important;
+}
+
+.home-page-logo {
+    margin-top: 50px;
+}
+
+.home-page-inferences-section {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page-app-section {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    background: rgb(29, 29, 37);
+}
+
+.home-page-app-description {
+    margin-left: 100px;
+    margin-bottom: 450px;
+}
+
+.home-page-app-description-header {
+    font: bold 48px "Segoe UI";
+}
+
+.home-page-app-description-list {
+    padding-top: 50px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.home-page-app-description-list-item {
+    padding-top: 50px;
+    font: 24px "Segoe UI";
+}
+
+.image-carousel-container {
+    width: 1000px;
+    margin-left: 250px;
 }
