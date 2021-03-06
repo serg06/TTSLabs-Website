@@ -239,13 +239,13 @@ a {
   background-color: #17171e !important;
 }
 
-.home-page-logo {
+.homepage-logo {
   margin-top: 50px;
   width: 800px;
   height: 150px;
 }
 
-.home-page-inferences-section {
+.homepage-inferences-section {
   padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,11 +260,11 @@ a {
   background: #17171e;
 }
 
-.home-page-inferences-header {
+.homepage-inferences-header {
   font: bold 38px "Segoe UI";
 }
 
-.home-page-app-section {
+.homepage-app-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,30 +272,33 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #1d1d25;
 }
 
-.home-page-app-description {
+.homepage-description {
   margin: 0px 100px 450px 100px;
 }
 
-.home-page-app-description-header {
+.homepage-description-header {
   font: bold 48px "Segoe UI";
 }
 
-.home-page-app-description-list {
+.homepage-description-list {
   font-size: 15px;
   text-align: left;
 }
 
-.home-page-app-description-list-item {
+.homepage-description-list-item {
   list-style: none;
   padding-top: 50px;
   font: 22px "Segoe UI";
   color: #b6b6b6;
 }
 
-.home-page-app-description-list-item::before {
+.homepage-description-list-item::before {
   content: '';
   display: inline-block;
   height: 16px;
@@ -307,10 +310,9 @@ a {
 
 .image-carousel-container {
   max-width: 30vw;
-  margin-left: 20vw;
 }
 
-.home-page-logo-section {
+.homepage-logo-section {
   min-height: 800px;
   background-image: url("./images/homepage-background.png");
   background-position: center;
@@ -318,5 +320,38 @@ a {
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.homepage-pricing-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #17171e;
+}
+
+.homepage-pricing-tiers {
+  width: 800px;
+  height: 500px;
+  margin-right: -250px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.homepage-pricing-tiers:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.homepage-pricing-description {
+  padding-right: 300px;
+  margin-left: -115px;
 }
 /*# sourceMappingURL=style.css.map */
