@@ -206,12 +206,28 @@ body {
   margin-top: 0px !important;
 }
 
+.alice-carousel__dots-item.__active {
+  background-color: #eeeeee !important;
+}
+
+.alice-carousel__dots-item {
+  background-color: #3c3c3c !important;
+}
+
+.alice-carousel__next-btn-item.__inactive, .alice-carousel__prev-btn-item.__inactive {
+  color: #3c3c3c !important;
+}
+
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+  color: #eeeeee !important;
+}
+
 .navbar-brand {
   padding: 0 3vw 0 20vw;
 }
 
 .nav-link {
-  font: 24px "Segoe UI";
+  font: 22px "Segoe UI";
   padding-right: 20px !important;
 }
 
@@ -225,8 +241,8 @@ a {
 
 .home-page-logo {
   margin-top: 50px;
-  width: 700px;
-  height: 120px;
+  width: 800px;
+  height: 150px;
 }
 
 .home-page-inferences-section {
@@ -242,6 +258,10 @@ a {
       -ms-flex-align: center;
           align-items: center;
   background: #17171e;
+}
+
+.home-page-inferences-header {
+  font: bold 38px "Segoe UI";
 }
 
 .home-page-app-section {
@@ -272,6 +292,7 @@ a {
   list-style: none;
   padding-top: 50px;
   font: 22px "Segoe UI";
+  color: #b6b6b6;
 }
 
 .home-page-app-description-list-item::before {
@@ -290,8 +311,8 @@ a {
 }
 
 .home-page-logo-section {
-  min-height: 500px;
-  background-image: url("./images/homepage-background.jpg");
+  min-height: 800px;
+  background-image: url("./images/homepage-background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

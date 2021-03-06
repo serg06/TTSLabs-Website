@@ -8,7 +8,7 @@ class InferenceTier extends Component {
         return(
             <div className="tier-card InferenceTierCard">
                 <header className="tier-card-header" style={{"borderTop": "3px solid " + this.props.color}}>
-                    <h1 className="tier-card-header-name" style={{"color": this.props.color}}>{ this.props.tier_name }</h1>
+                    <h1 className="tier-card-header-name">{ this.props.tier_name }</h1>
                     <hr className="tier-card-header-horizontal-line" style={{"borderTop": "2px solid" + this.props.color}} />
                 </header>
                 <div className="tier-card-body" style={{"borderBottom": "3px solid " + this.props.color}}>

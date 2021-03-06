@@ -12,7 +12,6 @@ import desktop_app_1 from "../images/desktop-app-1.png";
 import desktop_app_2 from "../images/desktop-app-2.png";
 
 import logo from "../images/logo.png"
-import background_image from "../images/homepage-background.jpg"
 
 class HomePage extends Component 
 {
@@ -29,6 +28,7 @@ class HomePage extends Component
           <img className="home-page-logo" src={ logo } alt=""/>
         </section>
         <section className="home-page-inferences-section">
+          <header className="home-page-inferences-header">Our work</header>
           <InferenceTierList data={ inference_data }/>
         </section>
         <img src={ transition } alt="" className="transition"/>

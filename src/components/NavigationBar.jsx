@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from "react-router-dom";
 
-import logo from "../images/logo.png"
-import placeholder_logo from "../images/placeholder-logo.png"
+import homepage_button from "../images/home-button-image.png"
 
 class NavigationBar extends Component
 {
@@ -13,7 +12,7 @@ class NavigationBar extends Component
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <Link to={"/home"}>
-                            <img src={ logo } alt="" width="300" height="50"/>
+                            <img src={ homepage_button } alt="" width="175" height="30"/>
                         </Link>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
