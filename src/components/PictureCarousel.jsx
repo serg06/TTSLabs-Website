@@ -17,7 +17,7 @@ class PictureCarousel extends Component {
                     infinite="true"
                     autoPlay="true"
                     autoPlayStrategy="default"
-                    autoPlayInterval="7500"
+                    autoPlayInterval="5000"
                     disableButtonsControls="true"
                 />
             </div>

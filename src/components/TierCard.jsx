@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import checkmark from "../images/checkmark.svg"
-
 class Tier extends Component {
     render ()
     {

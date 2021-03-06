@@ -17,7 +17,7 @@ class InferenceTier extends Component {
                             <div key={ id }>
                                 <div className="InferenceTierCardInferenceName unselectable" key={ id }>{ inference.name }</div> 
                                 <div className="InferenceTierCardInferenceText unselectable"> "{ inference.text }" </div> 
-                                <div className="InferenceTierCardPlayer unselectable">
+                                <div className="InferenceTierCardPlayer">
                                     <audio controls>
                                         <source src={ inference.audio_url } />
                                     </audio>

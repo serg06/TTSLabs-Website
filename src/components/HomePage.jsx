@@ -35,7 +35,7 @@ class HomePage extends Component
             pictures={ this.state.dekstop_app_pictures }
           />
           <div className="home-page-app-description">
-            <header className="home-page-app-description-header">Our desktop App</header>
+            <header className="home-page-app-description-header">Our desktop app</header>
             <ul className="home-page-app-description-list">
               <li className="home-page-app-description-list-item">Simple easy to use program</li>
               <li className="home-page-app-description-list-item">Supports donations, cheers and subscriptions</li>
