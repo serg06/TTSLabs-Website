@@ -26,3 +26,5 @@ yarn-error.log*
 # user defined
 /backup
 *.bat
+*.scss
+*.css.map
